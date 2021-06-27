@@ -1,0 +1,32 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+        "layer0": "minecraft:item/golden_pickaxe"
+    },
+    "overrides": [
+        {
+            "predicate": {
+                "custom_model_data": 1320000
+            },
+            "model": "coppertools:item/copper_pickaxe"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1320001
+            },
+            "model": "coppertools:item/exposed_copper_pickaxe"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1320002
+            },
+            "model": "coppertools:item/weathered_copper_pickaxe"
+        },
+        {
+            "predicate": {
+                "custom_model_data": 1320003
+            },
+            "model": "coppertools:item/oxidized_copper_pickaxe"
+        }
+    ]
+}

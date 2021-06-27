@@ -1,0 +1,17 @@
+{
+    "parent": "coppertools:recipes/nbt/root",
+    "criteria": {
+        "has_the_recipe": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "coppertools:nbt/copper_shovel"
+            }
+        }
+    },
+    "rewards": {
+        "function": "coppertools:crafted",
+        "loot": [
+            "coppertools:item/copper_shovel"
+        ]
+    }
+}

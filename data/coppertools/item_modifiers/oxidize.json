@@ -1,0 +1,104 @@
+[
+    {
+        "function": "minecraft:copy_nbt",
+        "source": {
+            "type": "minecraft:storage",
+            "source": "coppertools:storage"
+        },
+        "ops": [
+            {
+                "source": "temp.uses",
+                "target": "coppertools.UsesUntilNextStage",
+                "op": "replace"
+            }
+        ],
+        "conditions": [
+            {
+                "condition": "minecraft:inverted",
+                "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "equipment": {
+                            "mainhand": {
+                                "nbt": "{coppertools:{UsesUntilNextStage:1}}"
+                            }
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{CustomModelData:1320003,coppertools:{stage:\"oxidized\",UsesUntilNextStage:8}}",
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "nbt": "{coppertools:{stage:\"weathered\"}}"
+                    }
+                  }
+                }
+              },
+            {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "coppertool.math": 0
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{CustomModelData:1320002,coppertools:{stage:\"weathered\",UsesUntilNextStage:8}}",
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "nbt": "{coppertools:{stage:\"exposed\"}}"
+                    }
+                  }
+                }
+              },
+            {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "coppertool.math": 0
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_nbt",
+        "tag": "{CustomModelData:1320001,coppertools:{stage:\"exposed\",UsesUntilNextStage:8}}",
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "equipment": {
+                    "mainhand": {
+                      "nbt": "{coppertools:{stage:\"new\"}}"
+                    }
+                  }
+                }
+              },
+            {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "coppertool.math": 0
+                }
+            }
+        ]
+    }
+]

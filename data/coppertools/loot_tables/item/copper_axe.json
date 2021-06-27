@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_axe",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "translate": "item.coppertools.copper_axe",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{HideFlags:4,RepairCost:9999,Unbreakable:1b,CustomModelData:1320000,coppertools:{id:\"copper_axe\",stage:\"new\",UsesUntilNextStage:8}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "minecraft:item",
+                    "name": "minecraft:golden_sword",
+                    "functions": [
+                        {
+                            "function": "minecraft:set_name",
+                            "entity": "this",
+                            "name": {
+                                "translate": "item.coppertools.copper_swprd",
+                                "italic": false
+                            }
+                        },
+                        {
+                            "function": "minecraft:set_nbt",
+                            "tag": "{HideFlags:4,RepairCost:9999,Unbreakable:1b,CustomModelData:1320000,coppertools:{id:\"copper_sword\",stage:\"new\",UsesUntilNextStage:8}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

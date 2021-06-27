@@ -1,0 +1,362 @@
+[
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "translate": "item.coppertools.exposed_copper_pickaxe",
+            "italic": false
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:golden_pickaxe"
+                            ],
+                            "nbt": "{coppertools:{stage:\"exposed\"}}"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "translate": "item.coppertools.weathered_copper_pickaxe",
+            "italic": false
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:golden_pickaxe"
+                            ],
+                            "nbt": "{coppertools:{stage:\"weathered\"}}"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "translate": "item.coppertools.oxidized_copper_pickaxe",
+            "italic": false
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:golden_pickaxe"
+                            ],
+                            "nbt": "{coppertools:{stage:\"oxidized\"}}"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "translate": "item.coppertools.exposed_copper_axe",
+            "italic": false
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:golden_axe"
+                            ],
+                            "nbt": "{coppertools:{stage:\"exposed\"}}"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "translate": "item.coppertools.weathered_copper_axe",
+            "italic": false
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:golden_axe"
+                            ],
+                            "nbt": "{coppertools:{stage:\"weathered\"}}"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "translate": "item.coppertools.oxidized_copper_axe",
+            "italic": false
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:golden_axe"
+                            ],
+                            "nbt": "{coppertools:{stage:\"oxidized\"}}"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "translate": "item.coppertools.exposed_copper_sword",
+            "italic": false
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:golden_sword"
+                            ],
+                            "nbt": "{coppertools:{stage:\"exposed\"}}"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "translate": "item.coppertools.weathered_copper_sword",
+            "italic": false
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:golden_sword"
+                            ],
+                            "nbt": "{coppertools:{stage:\"weathered\"}}"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "translate": "item.coppertools.oxidized_copper_sword",
+            "italic": false
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:golden_sword"
+                            ],
+                            "nbt": "{coppertools:{stage:\"oxidized\"}}"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "translate": "item.coppertools.exposed_copper_hoe",
+            "italic": false
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:golden_hoe"
+                            ],
+                            "nbt": "{coppertools:{stage:\"exposed\"}}"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "translate": "item.coppertools.weathered_copper_hoe",
+            "italic": false
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:golden_hoe"
+                            ],
+                            "nbt": "{coppertools:{stage:\"weathered\"}}"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "translate": "item.coppertools.oxidized_copper_hoe",
+            "italic": false
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:golden_hoe"
+                            ],
+                            "nbt": "{coppertools:{stage:\"oxidized\"}}"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "translate": "item.coppertools.exposed_copper_shovel",
+            "italic": false
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:golden_shovel"
+                            ],
+                            "nbt": "{coppertools:{stage:\"exposed\"}}"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "translate": "item.coppertools.weathered_copper_shovel",
+            "italic": false
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:golden_shovel"
+                            ],
+                            "nbt": "{coppertools:{stage:\"weathered\"}}"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "function": "minecraft:set_name",
+        "entity": "this",
+        "name": {
+            "translate": "item.coppertools.oxidized_copper_shovel",
+            "italic": false
+        },
+        "conditions": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "items": [
+                                "minecraft:golden_shovel"
+                            ],
+                            "nbt": "{coppertools:{stage:\"oxidized\"}}"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+]

@@ -1,0 +1,112 @@
+[
+    {
+        "condition": "alternative",
+        "terms": [
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "nbt": "{coppertools:{id:\"copper_pickaxe\"}}"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "nbt": "{coppertools:{id:\"copper_axe\"}}"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "nbt": "{coppertools:{id:\"copper_shovel\"}}"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "nbt": "{coppertools:{id:\"copper_hoe\"}}"
+                        }
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                    "equipment": {
+                        "mainhand": {
+                            "nbt": "{coppertools:{id:\"copper_sword\"}}"
+                        }
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "condition": "minecraft:alternative",
+        "terms": [
+            {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "coppertool.axe": {
+                        "min": 1
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "coppertool.pick": {
+                        "min": 1
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "coppertool.spade": {
+                        "min": 1
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "coppertool.sword": {
+                        "min": 1
+                    }
+                }
+            },
+            {
+                "condition": "minecraft:entity_scores",
+                "entity": "this",
+                "scores": {
+                    "coppertool.hoe": {
+                        "min": 1
+                    }
+                }
+            }
+        ]
+    }
+]
