@@ -11,7 +11,7 @@
                             "function": "minecraft:set_name",
                             "entity": "this",
                             "name": {
-                                "translate": "item.coppertools.copper_swprd",
+                                "translate": "item.coppertools.copper_sword",
                                 "italic": false
                             }
                         },
