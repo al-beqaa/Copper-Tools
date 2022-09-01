@@ -1,6 +1,6 @@
 {
     "pack": {
-        "pack_format": 9,
-        "description": "Copper Tools"
+        "pack_format": 10,
+        "description": "Adds a set of copper tools to the game"
     }
 }
